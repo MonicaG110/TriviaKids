@@ -32,10 +32,11 @@ li {
     left: 200px;
     padding: 80px;
 }
-/*#container:active{
+#container:active{
     -webkit-transform: rotateY(180deg);
     transform-style: preserve-3d;
-} if we activate this the click function doesn't work but activates
+} 
+/*if we activate this the click function doesn't work but activates
 rotation of the card*/
 /***************
 CARDS:TRANSITIONS;
