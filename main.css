@@ -1,0 +1,64 @@
+ul
+{
+    list-style-type: none;
+}
+
+.correct {
+    background:#dff0d8;
+}
+
+.incorrect {
+    background:#f2dede;
+}
+
+li {
+    list-style: none;
+}
+.box{
+    width: 100%;
+}
+#content-wrapper{
+    width: 80%;
+    background:#D8D8D8;
+}
+#container{
+    width: 25%;
+    margin: 10px auto;
+    background-color:grey;
+    transition: -webkit-transform .2s ease;
+    display: inline-block;
+    margin:20px 50px 40px 50px;
+    position: relative;
+    left: 200px;
+    padding: 80px;
+}
+/*#container:active{
+    -webkit-transform: rotateY(180deg);
+    transform-style: preserve-3d;
+} if we activate this the click function doesn't work but activates
+rotation of the card*/
+/***************
+CARDS:TRANSITIONS;
+******************/
+
+/*.flipper{
+    transition: 0.6s;
+    transform-style: preserve-3d;
+    position: relative;
+} IMPORTANT this one works together with #continer*/
+
+/*.cardfront{
+    height: 250px;
+    width: 150px;
+    background: #3090C7;
+    border-radius: 15px;
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out;
+    display: inline-block;
+}*/
+    /*-webkit-backface-visibility: hidden;*/
+/*.card:hover{
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out;
+ 
+}*/

@@ -1,0 +1,62 @@
+[
+
+    {   "id":1,
+        "question":"Which country is home to the kangaroo?",
+        "answers":["Australia", "India", "South America"],
+        "correct":0
+    },
+    {
+        "id": 2,
+        "question" : "What side does the sun set?",
+        "answers": ["West", "Right", "Left"],
+        "correct" : 0
+    },
+    {
+        "id": 3,
+        "question" : "What do many children ride on to go to school?",
+        "answers": ["Plane", "Bus", "Boat"],
+        "correct" : 1
+    },
+    {
+        "id": 4,
+        "question" : "What is the sum of 5+2?",
+        "answers": ["10", "7", "3"],
+        "correct" : 1
+    },
+    {
+        "id": 5,
+        "question" : "On 'Sesame Street' what character is big and yellow?",
+        "answers": ["Telly", "Big Bird", "Kermit"],
+        "correct" : 1
+    },
+    {   "id": 6,
+        "question":" What animal purrs and is known for chasing mice?",
+        "answers":["Cat", "Seal", "Dog"],
+        "correct":0
+    },
+    {
+        "id": 7,
+        "question" : "What color are leaves on trees and grass?",
+        "answers": ["Blue", "Orange", "Green"],
+        "correct" : 2
+    },
+    {
+        "id": 8,
+        "question" : "What colors would you use to make the color purple?",
+        "answers": ["Green and red", "Blue and yellow", "Red and Blue"],
+        "correct" : 2
+    },
+    {
+        "id": 9,
+        "question" : "What is the fastest land animal in the world??",
+        "answers": ["Cheetah", "Hare", "Panther"],
+        "correct" : 0
+    },
+    {
+        "id": 10,
+        "question" : "What farm animal gives us milk to drink?",
+        "answers": ["Cow", "Chicken", "Horse"],
+        "correct" : 0
+    }    
+]
+
