@@ -20,7 +20,7 @@ var questionsCollection = new Questions();
 
 var answered = [];
 
-var counter = 0;
+var counter = 10;
 var Router = Backbone.Router.extend({
     initialize: function (){
       Backbone.history.start({ pushState: true});
@@ -39,10 +39,10 @@ var Router = Backbone.Router.extend({
                 $("#content-wrapper").html(info);
  
                 $('input[type="radio"]').click(function(e){
-                        counter +=1;
+                        counter -=1;
                         console.log(counter);
-                        if(counter >5){
-                          $("body").toggle("#overlay");
+                        if(counter >10){
+                            
                         }
                     var name = $(this).attr('name');
                     var parentList = $(this).parents('ul');
@@ -63,12 +63,12 @@ var Router = Backbone.Router.extend({
                         if (answer == correctAnswer) {
                             addAnswers(question, true);
                             parentList.addClass('correct');
-                            $("#results").html("YOU ARE RIGHT!");    
+
+                            $("#results").html("YOU ARE RIGHT! <br>" +  counter + " questions left");    
                         } else{
                             addAnswers(question, false);
                             parentList.addClass('incorrect');
-                           
-                            $("#results").html("YOU NEED TO STUDY!");
+                            $("#results").html("YOU NEED TO STUDY! <br> " + counter + " questions left");  
                         }
                     }
 
