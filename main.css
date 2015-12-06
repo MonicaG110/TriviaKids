@@ -1,3 +1,13 @@
+body{
+font-family: 'Montserrat', sans-serif;
+}
+
+h1{
+    text-align: center;
+    font-size: 4em;
+    
+}
+
 ul
 {
     list-style-type: none;
@@ -8,7 +18,7 @@ ul
 }
 
 .incorrect {
-    background:#f2dede;
+    background:#DB5844;
 }
 
 li {
@@ -18,19 +28,20 @@ li {
     width: 100%;
 }
 #content-wrapper{
-    width: 80%;
+    width: 100%;
     background:#D8D8D8;
 }
 #container{
     width: 25%;
     margin: 10px auto;
-    background-color:grey;
+    background-color: #43C6DB;
     transition: -webkit-transform .2s ease;
     display: inline-block;
     margin:20px 50px 40px 50px;
     position: relative;
-    left: 200px;
+    border-radius: 15px;
     padding: 80px;
+    box-shadow: 2px 1px 1px 1px grey;
 }
 #container:active{
     -webkit-transform: rotateY(180deg);
@@ -42,13 +53,16 @@ rotation of the card*/
 CARDS:TRANSITIONS;
 ******************/
 
-/*.flipper{
+.flipper{
     transition: 0.6s;
     transform-style: preserve-3d;
     position: relative;
-} IMPORTANT this one works together with #continer*/
+    background: #BCE954;
+    padding: 5%;
+    box-shadow: 2px 1px 1px 1px grey;
+} 
 
-/*.cardfront{
+/*\.cardfront{
     height: 250px;
     width: 150px;
     background: #3090C7;
