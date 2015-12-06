@@ -92,7 +92,7 @@ CARDS:TRANSITIONS;
 #results {
     height: 20px;
     width: 20%;
-    right: 40px;
+    right: 0px;
     padding: 20px;
     background: rgba(97,109,126, .7);
     color: white;
@@ -102,7 +102,7 @@ CARDS:TRANSITIONS;
     z-index: 2;
 }
 
-#overlay {
+.overlay {
     position: fixed;
     top: 0;
     left: 0;

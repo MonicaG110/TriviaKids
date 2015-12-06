@@ -41,8 +41,8 @@ var Router = Backbone.Router.extend({
                 $('input[type="radio"]').click(function(e){
                         counter -=1;
                         console.log(counter);
-                        if(counter >10){
-                            
+                        if(counter > 10){
+                            $('body').toggleClass("overlay");
                         }
                     var name = $(this).attr('name');
                     var parentList = $(this).parents('ul');
