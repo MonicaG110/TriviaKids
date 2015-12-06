@@ -10,14 +10,15 @@
 
 </head>
 <body>
-        
-        <h1> Kids Trivia </h1>
-
+    
+        <h1> <div>Kids Trivia </div></h1>
+    <div id="results"></div>
     <div id="content-wrapper">
+    <div id="overlay">WINNER!!!</div>
     </div>
 
     <script type="x-tmpl-mustache" id="questionTemplate">
-              
+     <div class="move">         
     {{#questions}}
         <div id="container">
             <div class="flipper">
@@ -28,10 +29,11 @@
                     {{/answers}}
                 </ul>
             </div>
+
         </div>
     {{/questions}}
-        
-     
+    </div>
+         
    </script>
 
    </div>

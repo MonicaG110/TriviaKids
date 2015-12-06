@@ -41,8 +41,8 @@ var Router = Backbone.Router.extend({
                 $('input[type="radio"]').click(function(e){
                         counter +=1;
                         console.log(counter);
-                        if(counter >10){
-                            alert("game over");
+                        if(counter >5){
+                          $("body").toggle("#overlay");
                         }
                     var name = $(this).attr('name');
                     var parentList = $(this).parents('ul');
@@ -63,11 +63,12 @@ var Router = Backbone.Router.extend({
                         if (answer == correctAnswer) {
                             addAnswers(question, true);
                             parentList.addClass('correct');
-                            alert("YOU ARE RIGHT!");    
+                            $("#results").html("YOU ARE RIGHT!");    
                         } else{
                             addAnswers(question, false);
                             parentList.addClass('incorrect');
-                            alert("YOU NEED TO STUDY!");
+                           
+                            $("#results").html("YOU NEED TO STUDY!");
                         }
                     }
 
