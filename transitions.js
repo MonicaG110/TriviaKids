@@ -1,9 +1,5 @@
 
-$(document).ready(function(){
 
-    $("body").on("click", ".cardfront", function(){
+    $("body").on("click", "input", function(){
         console.log("sda");
-    })
-
-
-});
+    });

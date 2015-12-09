@@ -4,15 +4,21 @@
     <meta charset="UTF-8">
     <title>Document</title>
     <link rel="Stylesheet" href="normalize.css">
+    <link href='https://fonts.googleapis.com/css?family=Play:700,400' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="main.css">
 
 </head>
 <body>
+    
+        <h1> <div>Kids Trivia </div></h1>
+    <div id="results"></div>
     <div id="content-wrapper">
+
     </div>
 
     <script type="x-tmpl-mustache" id="questionTemplate">
-              
+     <div class="move">         
     {{#questions}}
         <div id="container">
             <div class="flipper">
@@ -23,10 +29,11 @@
                     {{/answers}}
                 </ul>
             </div>
+
         </div>
     {{/questions}}
-        
-     
+    </div>
+         
    </script>
 
    </div>
